@@ -1,0 +1,13 @@
+//LISTAR CREDENCIALES GLOBALES 
+
+git config --global --list 
+
+// CONFIGURACIÓN DE CREDENCIALES 
+
+git config --global user.name "user"
+git config --global user.password "clave"
+git config --global user.email "correo"
+
+// 
+
+
