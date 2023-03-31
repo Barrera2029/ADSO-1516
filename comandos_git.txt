@@ -8,6 +8,37 @@ git config --global user.name "user"
 git config --global user.password "clave"
 git config --global user.email "correo"
 
-// 
+// REMOVER CONFIGURACIÓN DE CREDENCIALES
+
+git config --global --remove-section user.name="user"
+git config --global --remove-section user.password="calve"
+git config --global --remove-section user.email="correo"
 
 
+// SINCRONIZAR EL REPOSITORIO EN GITHUB
+
+git init 
+git add . 
+git comit -m `Inicio del repositorio de ADSO`
+git remove 
+
+git remote add origin https://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@github.com/Barrera2029/ADSO-1516.git
+
+ //TOKEN NUEVO 
+
+ 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
+
+
+ // CARGAR ARCHIVO A REPOSITORIO DE GIT
+
+ git push -u origin master
+
+ 
+ //CLONAR REPOSITORIO (SOLO SE REALIZA UNA VEZ)
+
+ git clone https://github.com/Barrera2029/ADSO-1516.git
+
+
+ //PARA ACTUALIZAR HACEMOS :
+
+git pull origin master
